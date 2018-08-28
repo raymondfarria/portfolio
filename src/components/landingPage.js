@@ -18,7 +18,26 @@ class LandingPage extends Component{
 
                     <hr/>
 
-                    <p>Java | HTML/CSS | </p>
+                    <p>Java | HTML/CSS | JavaScript | React | MySQL | Spring/Spring Boot | NodeJS | OAuth2 </p>
+
+                        <div className="social-links">
+
+                            {/* LinkedIn Icon */}    
+                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+
+                            {/* GitHub Icon */}    
+                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-github-square" aria-hidden="true"></i>
+                            </a>
+
+                            {/* Facebook Icon */}    
+                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                            </a>
+                            
+                        </div>
                     </div>
                 </Cell>
             </Grid>      
