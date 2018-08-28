@@ -7,14 +7,15 @@ class LandingPage extends Component{
           <div style={{width: '100%', margin: 'auto'}}>
             <Grid className="landing-grid">
                 <Cell col={12}>
-                    <img
-                        src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Man-6-512.png"
-                        alt="avatar"
-                        className="avatar-image"
-                        />
+                    <img 
+                    src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairBun&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=Black&clotheType=BlazerSweater&eyeType=Default&eyebrowType=Default&mouthType=Smile&skinColor=Brown'
+                    alt="avatar"
+                    className="avatar-image"
+                    />
                     
                     <div className="banner-text">
-                        <h1>Software Developer</h1>
+                        <h1>Raymond Farria</h1>
+                        <h2>Software Developer</h2>
 
                     <hr/>
 
