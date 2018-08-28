@@ -3,26 +3,27 @@ import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 
 import Main from './components/main'
 import './App.css';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header title="Title" scroll>
+        <Header className="header-color" title="Title" scroll>
             <Navigation>
-                <a href="/">Home</a>
-                <a href="/">About Me</a>
-                <a href="/">Projects</a>
-                <a href="/">Contact</a>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="/">Home</a>
-                <a href="/">About Me</a>
-                <a href="/">Projects</a>
-                <a href="/">Contact</a>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
