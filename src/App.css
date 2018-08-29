@@ -88,6 +88,7 @@
     height: 100%;
     justify-content: center;
     padding-top: 2em;
+    font-family: 'Oswald', sans-serif;
 }
 
 .contact-grid{
@@ -101,11 +102,11 @@
 }
 
 .contact-grid h2{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .contact-grid p{
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: bold;
 }
 
@@ -160,5 +161,26 @@
     }
   }
 
+.hobby-items{
+    padding-left: 33.5em;
+}
+
+.hobby-paragraph{
+    font-family: 'Oswald', sans-serif;
+}
+
+.hobby-paragraph p{
+    color: white;
+    background-color: black;
+    opacity: .8;
+    width: 35%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+

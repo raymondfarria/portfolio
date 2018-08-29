@@ -22,7 +22,7 @@ class Projects extends Component{
                 the queue.  
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
+                    <Button colored href="https://github.com/rayskeez21/theCookout-PassionProject">GitHub</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton name="share" />
