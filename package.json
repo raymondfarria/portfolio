@@ -9,6 +9,7 @@
     "react-dom": "^16.4.2",
     "react-mdl": "^1.11.0",
     "react-protected-mailto": "^1.0.3",
+    "react-rotating-text": "^1.2.1",
     "react-router-dom": "^4.4.0-alpha.1",
     "react-scripts": "1.1.5"
   },
