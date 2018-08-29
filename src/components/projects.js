@@ -22,7 +22,7 @@ class Projects extends Component{
                 the queue.  
                 </CardText>
                 <CardActions border>
-                    <Button colored href="https://github.com/rayskeez21/theCookout-PassionProject">GitHub</Button>
+                    <Button href="https://github.com/rayskeez21/theCookout-PassionProject" colored>GitHub</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton name="share" />
@@ -36,7 +36,7 @@ class Projects extends Component{
                 Created my portfolio website in React. Check it out!!!!    
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
+                    <Button href="https://github.com/rayskeez21/Portfolio" colored>GitHub</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton name="share" />
