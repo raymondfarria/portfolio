@@ -36,7 +36,7 @@ class Resume extends Component{
                         <p>(302) 450-8066</p>
 
                         <h5>Email</h5>
-                        <p>rayskeez21@gmail.com</p>
+                        <p>raymondfarria@gmail.com</p>
 
                         <h5>Web</h5>
                         <p>raymondFarria.herokuapp.com</p>
