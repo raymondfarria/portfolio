@@ -29,7 +29,7 @@ class LandingPage extends Component{
                             </a>
 
                             {/* GitHub Icon */}    
-                            <a href="https://github.com/rayskeez21" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/raymondfarria" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square" aria-hidden="true"></i>
                             </a>
 
