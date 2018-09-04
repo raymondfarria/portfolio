@@ -32,10 +32,10 @@ class LandingPage extends Component{
                             <a href="https://github.com/raymondfarria" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square" aria-hidden="true"></i>
                             </a>
-
-                            {/* Facebook Icon */}    
-                            <a href="https://www.facebook.com/raymond.farria?ref=bookmarks" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                            
+                            {/* Stack Overflow Icon */}    
+                            <a href="https://stackoverflow.com/users/10307094/raymond-farria?tab=profile" rel="noopener noreferrer" target="_blank">
+                                <i className="fab fa-stack-overflow" aria-hidden="true"></i>
                             </a>
                             
                         </div>
