@@ -35,7 +35,7 @@ class LandingPage extends Component{
                             
                             {/* Stack Overflow Icon */}    
                             <a href="https://stackoverflow.com/users/10307094/raymond-farria?tab=profile" rel="noopener noreferrer" target="_blank">
-                                <i className="fab fa-stack-overflow" aria-hidden="true"></i>
+                                <i className="fa fa-stack-overflow" aria-hidden="true"></i>
                             </a>
                             
                         </div>
