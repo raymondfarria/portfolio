@@ -36,7 +36,7 @@ class Projects extends Component{
                 Created my portfolio website in React. Check it out!!!!    
                 </CardText>
                 <CardActions border>
-                    <Button href="https://github.com/rayskeez21/Portfolio" colored>GitHub</Button>
+                    <Button href="https://github.com/raymondfarria/Portfolio" colored>GitHub</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton name="share" />
@@ -46,17 +46,28 @@ class Projects extends Component{
         )
     } else if(this.state.activeTab === 1) {
         return(
-            <div><h1>This is Spring!</h1></div>
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.betteru.in/wp-content/uploads/2016/07/20091521/Spring.jpg) center / cover'}} > StarWarsRest </CardTitle>
+                <CardText>
+                Building a RESTful web service from SWAPI (Star Wars Application Programming Interface)   
+                </CardText>
+                <CardActions border>
+                    <Button href="https://github.com/raymondfarria/StarWarsRest" colored>GitHub</Button>
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                    <IconButton name="share" />
+                </CardMenu>
+            </Card>
         )
     } else if(this.state.activeTab === 2){
         return(
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.hugeserver.com/kb/wp-content/uploads/2017/12/expresslogo.png) center / cover'}} > cookoutBackend </CardTitle>
                 <CardText>
-                The backend for my Cookout project,   
+                The backend for my Cookout project.   
                 </CardText>
                 <CardActions border>
-                    <Button href="https://github.com/rayskeez21/cookoutBack" colored>GitHub</Button>
+                    <Button href="https://github.com/raymondfarria/cookoutBack" colored>GitHub</Button>
                 </CardActions>
                 <CardMenu style={{color: '#fff'}}>
                     <IconButton name="share" />
